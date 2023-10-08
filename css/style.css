@@ -135,6 +135,7 @@ div {
 .flex {
     display: flex;
     justify-content: center;
+    color: aliceblue;
 
 }
 /*grid*/
