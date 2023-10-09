@@ -8,8 +8,8 @@
   <!--bootstrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
   <title>Biografia</title>
 </head>
@@ -31,8 +31,8 @@
   </header>
 
   <main>
-    <h2>Biografia</h2>
-    <div class="logo-wrapper">
+    <h2 data-aos="fade-up">Biografia</h2>
+    <div data-aos="fade-right" class="logo-wrapper">
       <img src="../img/aurora nina.jpg" width="100" alt="aurora1">
       <span> Aurora Aksnes, conocida simplemente como Aurora es una cantautora noruega. Nacio el
         15 de junio de 1996 en la ciudad de Stavanger, Noruega. Paso los primeros 3 años
@@ -46,11 +46,12 @@
         aunque segun ella, preferia estar sola rodeada de arboles.
       </span>
     </div>
-    <div>
+    <div data-aos="fade-up">
       <img src="../img/aurora1.jpg" width="200" alt="aurora1">
     </div>
 
-    <p>Aurora comenzo a escribir canciones a los 9 a;os de edad, con conocimiento ya del idioma inglesa
+    <p data-aos="fade-left">Aurora comenzo a escribir canciones a los 9 a;os de edad, con conocimiento ya del idioma
+      inglesa
       A dicha edad, su primera composición hablaba sobre "cuán duro puede ser el mundo",Los referentes de Aksnes eran
       escasos, dado que en su hogar no poseía acceso
       a la radio o a canales de música en la televisión.Incluso al adentrarse en su carrera como cantante admitió que
@@ -66,10 +67,11 @@
 
     </p>
     <div>
-      <img src="../img/aurora2.jpg" width="100" alt="aurora2">
-      <img src="../img/aurora3.jpg" width="80" alt="aurora3">
+      <img data-aos="fade-down-right" src="../img/aurora2.jpg" width="100" alt="aurora2">
+      <img data-aos="fade-down-left" src="../img/aurora3.jpg" width="80" alt="aurora3">
     </div>
-    <p>La misma grabación (hecha como regalo navideño para sus padres) y un vídeo aficionado de su presentación escolar
+    <p data-aos="fade-up">La misma grabación (hecha como regalo navideño para sus padres) y un vídeo aficionado de su
+      presentación escolar
       fueron cargadas a internet sin su permiso (lo que inicialmente la hizo enfadar) y rápidamente fue descubierta por
       un representante de la agencia de artistas Made Management
       En pocas horas, ambos archivos recibieron miles de visitas en Noruega, lo que le valió a Aksnes cierta notoriedad
@@ -97,6 +99,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+  <!-- script AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
