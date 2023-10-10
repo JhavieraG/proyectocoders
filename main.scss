@@ -1,0 +1,25 @@
+@import "./scss/style.scss";
+
+
+
+.gridcontainer  {
+    background: #20222a;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+body{
+    @include body;
+}
+
+footer{
+    @include header;
+}
+
+header{
+    @include header;
+}
