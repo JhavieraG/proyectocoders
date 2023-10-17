@@ -1,5 +1,5 @@
 @import "./mixin.scss";
-@import "./extend.scss";
+
 * {
     margin: 0%;
     padding: 0%;
@@ -94,6 +94,7 @@ aside {
     margin: 0;
     padding: 20px 1px;
     text-align: center;
+    
 }
 
 footer {
@@ -121,8 +122,14 @@ div {
 .flex {
     display: flex;
     justify-content: center;
-
+    caja{
+        color: #fff;
+        p{
+            color: #fff;
+        }
+    }
 }
+
 /*grid*/
  .gridcontainer {
     background: #20222a;
@@ -204,9 +211,25 @@ div {
 .main {
     width: 100%;
 }
-boton{
+
+@media screen and (max-width:576px){
+    .header{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  
+    }
+  }
     
-}
+    @media screen and (max-width:992px) {
+      .img{
+        width: 100%;
+        align-items: center;
+      }
+      
+    }
+
+
 
 
     
