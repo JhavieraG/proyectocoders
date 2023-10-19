@@ -172,11 +172,6 @@ div {
 }
 
 @media (max-width: 768px) {
-  .img {
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
   .abrir-menu {
     display: block;
   }
@@ -201,24 +196,18 @@ div {
   width: 100%;
 }
 
-@media screen and (max-width:576px){
-  .header{
+@media screen and (max-width: 576px) {
+  .header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
   }
 }
-  
-  @media screen and (max-width:992px) {
-    .img{
-      width: 100%;
-      align-items: center;
-    }
-    
+@media screen and (max-width: 992px) {
+  .img {
+    width: 100%;
+    align-items: center;
   }
-
-    
-
+}
 
 /*# sourceMappingURL=style.css.map */
